@@ -233,7 +233,7 @@ header {
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('http://localhost/tugas/assets/shop_01.jpg');
+    background-image: url('img/shop_01.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -533,11 +533,53 @@ img::-moz-selection {
 }
 
 .image-bg-fluid-height {
-	background: url('http://localhost/tugas/assets/shop_15.jpg') no-repeat center center scroll;
+	background: url("img/shop_15.jpg") no-repeat center center scroll;
     padding: 100px 0;
 }
 
 .image-bg-fixed-height {
-	background: url('http://localhost/tugas/assets/shop_15.jpg') no-repeat center center scroll;
+	background: url("img/shop_15.jpg") no-repeat center center scroll;
     height: 450px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@font-face {
+	font-family: "Font Birdman";
+	src: url('fonts/BIRDMAN_.TTF');
+}
+
+@font-face {
+	font-family: "Font Birdman Light";
+	src: url('fonts/BIRDL___.TTF');
+}
+ 
+.pencarian {
+	font-family: "Font Birdman";
+}
+
+.lastestreview {
+	font-family: "Font Birdman Light";
+}
+
+.input-form {
+	color: #414141;
 }
